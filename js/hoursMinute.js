@@ -2,11 +2,15 @@ var hr1 = document.getElementById('hrOne');
 var hr2 = document.getElementById('hrTwo');
 var hr3 = document.getElementById('hrThree');
 var hr4 = document.getElementById('hrFour');
+var hr5 = document.getElementById('hrFive');
+var hr6= document.getElementById('hrSix');
 
 var min1 = document.getElementById('minOne');
 var min2 = document.getElementById('minTwo');
 var min3 = document.getElementById('minThree');
 var min4 = document.getElementById('minFour');
+var min5 = document.getElementById('minFive');
+var min6 = document.getElementById('minSix');
 
 var addsum = document.getElementById('addSum');
 
@@ -14,11 +18,15 @@ hr1.addEventListener('input', divide);
 hr2.addEventListener('input', divide);
 hr3.addEventListener('input', divide);
 hr4.addEventListener('input', divide); 
+hr5.addEventListener('input', divide); 
+hr6.addEventListener('input', divide); 
 
 min1.addEventListener('input', divide);
 min2.addEventListener('input', divide);
 min3.addEventListener('input', divide);
 min4.addEventListener('input', divide);
+min5.addEventListener('input', divide);
+min6.addEventListener('input', divide);
 
 
 
