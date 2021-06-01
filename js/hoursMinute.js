@@ -66,5 +66,9 @@ function divide() { /*retrieves minutes, then converts to 00:00*/
 
 }
 
+function formReset() {
+    document.getElementsByClassName('reset').value = ' ';
+}
+
 
 
