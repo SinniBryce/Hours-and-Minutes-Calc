@@ -28,8 +28,11 @@ function add() { /*get hours and multiply by 60*/
     var two = parseFloat(hr2.value) || 0;
     var three = parseFloat(hr3.value) || 0;
     var four = parseFloat(hr4.value) || 0;
+    var five = parseFloat(hr5.value) || 0;
+    var six = parseFloat(hr6.value) || 0;
+    
 
-    var multiplyhr = (one+two+three+four)*60;
+    var multiplyhr = (one+two+three+four+five+six)*60;
     return multiplyhr;
     /*addsum.innerText = multiplyhr;*/
 }
@@ -39,8 +42,10 @@ function divide() { /*retrieves minutes, then converts to 00:00*/
     var dos = parseFloat(min2.value) || 0;
     var tres = parseFloat(min3.value) || 0;
     var cuatro = parseFloat(min4.value) || 0;
+    var cinco = parseFloat(min5.value) || 0;
+    var seis = parseFloat(min6.value) || 0;
 
-    var divided = (uno+dos+tres+cuatro) + add(); 
+    var divided = (uno+dos+tres+cuatro+cinco+seis) + add(); 
 
     var hours = (divided/60);
     var roundhours = Math.floor(hours);
